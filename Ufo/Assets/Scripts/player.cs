@@ -12,8 +12,6 @@ public class player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
-
-
     void Update()
     {
         horizontal = Input.GetAxis("Horizontal");
