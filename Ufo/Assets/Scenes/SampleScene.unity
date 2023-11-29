@@ -512,6 +512,7 @@ GameObject:
   - component: {fileID: 1402997817}
   - component: {fileID: 1402997816}
   - component: {fileID: 1402997819}
+  - component: {fileID: 1402997820}
   m_Layer: 0
   m_Name: UFO
   m_TagString: Untagged
@@ -623,3 +624,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1402997820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402997815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4fac031ce20654b8bdaa9865b733d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
